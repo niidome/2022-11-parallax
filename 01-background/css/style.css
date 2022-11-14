@@ -1,0 +1,14 @@
+/* ブラウザの余白をリセット */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 背景 */
+.parallax-background {
+    height: 150vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
