@@ -1,0 +1,27 @@
+/* ブラウザの余白をリセット */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 背景 */
+.parallax-background {
+    position: relative;
+    height: 200vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/* 前景 */
+.parallax-foreground {
+    position: absolute;
+    top: 80vh;
+    background-image: url(../images/foreground.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+}
