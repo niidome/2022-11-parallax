@@ -6,7 +6,7 @@ body {
 
 /* 背景 */
 .parallax-background {
-    height: 150vh;
+    height: 200vh;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: top center;
