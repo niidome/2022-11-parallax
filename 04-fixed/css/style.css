@@ -1,0 +1,29 @@
+/* ブラウザの余白をリセット */
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 200vh;
+    /* 高さをウィンドウサイズの2倍に */
+}
+
+
+.fixed-background {
+    background-image: url(../images/cherry-blossom.jpg);
+    /* 固定背景 */
+    background-attachment: fixed;
+
+    /* 今回は画像全体を表示にしています */
+    background-size: contain;
+
+    /* 背景画像の繰り返しなし */
+    background-repeat: no-repeat;
+
+    /* 画面中央に配置 */
+    background-position: center;
+
+    /* 見える部分を 50% の高さに */
+    height: 50vh;
+
+    /* 他の要素がないので上にマージン入れています */
+    margin: 95vh auto 0;
+}
