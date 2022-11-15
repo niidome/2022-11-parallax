@@ -6,5 +6,7 @@ body {
 
 img {
     width: 100%;
+
+    /* 画像の下に余計な余白がつくのを回避します */
     vertical-align: middle;
 }
